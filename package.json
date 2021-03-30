@@ -1,0 +1,17 @@
+{
+  "name": "botWhatsApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "python-shell": "^2.0.3",
+    "venom-bot": "^3.0.7",
+    "yarn": "^1.22.10"
+  }
+}
