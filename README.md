@@ -3,15 +3,15 @@
 
 ## 💭 Description:
 
-```
+<p>
 Creating beautiful images with carbon.sh is great, but creating them while chatting on your favorite WhatsApp group of developers is much more amazing.
-```
+</p>
 
 ## 🕹️ Usage:
 
-```
+<p>
 Just by adding three crasis quotes (```) before the code, you will tell messageToCarbon that it should transform that message into an image made in Carbon.sh
-```
+</p>
 
 ### Example:
 
@@ -27,7 +27,7 @@ Just by adding three crasis quotes (```) before the code, you will tell messageT
 ```
 
 ### Output:
-<img src="carbon.png" alt="Basic example" width="550"/>
+<img src="src/carbon.png" alt="Basic example" width="550"/>
 
 
 ## 💻 Tech Stack:

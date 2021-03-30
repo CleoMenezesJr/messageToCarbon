@@ -12,14 +12,17 @@ venom
 function start(client) {
   client.onMessage((message) => {
     if (String(message.body).slice(0, 3) === '\`\`\`' && message.isGroupMsg === true) {
-        var messageConvert = {
-            msg: message.body
-        }
-        fs.writeFile("code.txt", String(message.body), function(err) {
-            if (err) {
-                console.log(err);
-            }
-        });
+
+      client
+        .sendText(message.from, `Um segundo, dev. 🔥\nEstarei criando a imagem. 🥶`)
+      var messageConvert = {
+          msg: message.body
+      }
+      fs.writeFile("code.txt", String(message.body), function(err) {
+          if (err) {
+              console.log(err);
+          }
+      });
         
  
       PythonShell.run('main.py', null, function (err) {
@@ -28,7 +31,7 @@ function start(client) {
         client
         .sendImage(
           message.from,
-          '/home/cleomenezesjr/Documentos/CODE/botWhatsApp/carbon.png',
+          './carbon.png',
           'image-name',
           'Menezes messageToCarbon'
         )
