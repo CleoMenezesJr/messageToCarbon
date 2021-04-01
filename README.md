@@ -27,7 +27,7 @@ Just by adding three crasis quotes (```) before the code, you will tell messageT
 ```
 
 ### Output:
-<img src="src/carbon.png" alt="Basic example" width="550"/>
+<img src="src/carbon.png" alt="Basic example" width="600"/>
 
 
 ## 💻 Tech Stack:
