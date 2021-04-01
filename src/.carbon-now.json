@@ -1,0 +1,40 @@
+{
+    "latest-preset": {
+      "t": "base16-light",
+      "bg": "none",
+      "wt": "none",
+      "wc": true,
+      "fm": "Inconsolata",
+      "fs": "18px",
+      "ln": true,
+      "ds": true,
+      "dsyoff": "3px",
+      "dsblur": "5px",
+      "wa": true,
+      "pv": "15px",
+      "ph": "15px",
+      "si": false,
+      "wm": false,
+      "es": "2x",
+      "type": "png"
+    },
+    "presentation": {
+      "t": "base16-light",
+      "bg": "none",
+      "wt": "none",
+      "wc": true,
+      "fm": "Inconsolata",
+      "fs": "18px",
+      "ln": true,
+      "ds": true,
+      "dsyoff": "3px",
+      "dsblur": "5px",
+      "wa": true,
+      "pv": "15px",
+      "ph": "15px",
+      "si": false,
+      "wm": false,
+      "es": "2x",
+      "type": "png"
+    }
+  }
