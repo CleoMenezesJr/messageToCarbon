@@ -16,7 +16,6 @@ Just by adding three crasis quotes (```) before the code, you will tell messageT
 ### Example:
 
 
-```javascript
 ```const unfold = (f, seed) => {
   const go = (f, seed, acc) => {
     const res = f(seed)
@@ -35,8 +34,6 @@ Just by adding three crasis quotes (```) before the code, you will tell messageT
 The following tools were used in the construction of the project:
 - [JavaScript](https://www.javascript.com/)
 - [Node.Js](https://nodejs.org/)
-- [Python](https://www.python.org/)
-- [Venom](https://github.com/orkestral/venom)
 - [Carbon-now-cli](https://github.com/mixn/carbon-now-cli)
 
 
@@ -54,3 +51,8 @@ Licensed with MIT. The person who made this has nothing to do with [Carbon](http
 > GitHub [CleoMenezes](https://github.com/CleoMenezes) &nbsp;&middot;&nbsp;
 > Twitter [@Menemezis](https://twitter.com/Menemezis) &nbsp;&middot;&nbsp;
 > Instagram [@cleo.menemezes](https://www.instagram.com/cleo.menemezes/) &nbsp;&middot;&nbsp;
+
+
+---
+### Contribuitors
+Paulo Henrique @paulohenriquesn
