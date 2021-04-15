@@ -1,17 +1,11 @@
 const fs = require('fs');
-const venom = require('venom-bot');
-let {PythonShell} = require('python-shell')
+const wa = require('@open-wa/wa-automate');
 
-venom
-  .create()
-  .then((client) => start(client))
-  .catch((erro) => {
-    console.log(erro);
-  });
+wa.create().then(client => start(client));
 
 function start(client) {
   
-  client.onMessage((message) => {
+  client.onMessage(async message => {
 
 
     if (String(message.body).slice(0, 3) === '\`\`\`' && message.isGroupMsg === true) {
@@ -25,7 +19,7 @@ function start(client) {
             })
         }
       }
-      client
+      await client
       .sendText(message.from, `Um segundo, dev. 🔥\nCriarei a imagem. 🥶`)
       
       // Taking only the messages that have the 3 messages with ~~~ at the beginning that were sent in the group
