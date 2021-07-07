@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@open-wa/wa-automate": "^3.10.15",
     "python-shell": "^2.0.3",
-    "venom-bot": "^3.0.11",
     "yarn": "^1.22.10"
   }
 }
